@@ -1,1 +1,59 @@
-<!DOCTYPE html>\n<html lang="en">\n<head>\n    <meta charset="UTF-8">\n    <meta name="viewport" content="width=device-width, initial-scale=1.0">\n    <title>Valentine's Letter</title>\n    <style>\n        body {\n            font-family: Arial, sans-serif;\n            background-color: #f8e1e1;\n            color: #333;\n            text-align: center;\n            padding: 50px;\n        }\n        h1 {\n            color: #b30000;\n        }\n        p {\n            font-size: 1.2em;\n        }\n        .btn {\n            background-color: #ff4081;\n            color: white;\n            padding: 10px 20px;\n            text-decoration: none;\n            border-radius: 5px;\n        }\n    </style>\n</head>\n<body>\n    <h1>Happy Valentine's Day!</h1>\n    <p>Dear [Her Name],</p>\n    <p>Every moment spent with you is like a beautiful dream come true. On this special day, I want to express my feelings to you. You make my world brighter with your smile and laughter.</p>\n    <p>I would be honored if you would go out with me. Let's create beautiful memories together!</p>\n    <p>With all my love,</p>\n    <p>[Your Name]</p>\n    <a href="#" class="btn">Say Yes!</a>\n</body>\n</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Letter</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: #ffe4e1;
+            color: #333;
+            text-align: center;
+            padding: 20px;
+            margin: 0;
+        }
+        h1 {
+            font-size: 2.5em;
+            color: #e6005c;
+            animation: fadeIn 2s;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .letter {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            margin: 20px auto;
+            width: 80%;
+            max-width: 600px;
+        }
+        button {
+            background-color: #e6005c;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #c60047;
+        }
+    </style>
+</head>
+<body>
+    <h1>Happy Valentine's Day!</h1>
+    <div class="letter">
+        <p>Dear [Name],</p>
+        <p>This Valentine's Day, I want you to know how much you mean to me. Your presence brightens my days and fills my heart with joy.</p>
+        <p>Thank you for being you! I am so grateful for every moment we share.</p>
+        <p>With all my love,</p>
+        <p>[Your Name]</p>
+        <button onclick="alert('You are amazing! Happy Valentine's Day!')">Click me!</button>
+    </div>
+</body>
+</html>
